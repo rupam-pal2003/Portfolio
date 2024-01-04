@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins&display=swap');
+*{
+  margin: 0;
+  
+}
+body{
+  background-color: #121212;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+
+
+
+
+.box1{
+    height: 795px;
+    width: 262.5px;
+    position: sticky;
+    top: 60px;
+    margin-bottom: 0;
+    margin-right: 15px;
+    margin-bottom: 45px;
+    
+}
+
+.contentbox1{
+
+  
+    background-color: #1E1E1F;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: #3d3d3d;
+    border-width: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 262.5px;
+    max-height: max-content;
+    height: 795px;
+  }
+
+  .profilepic{
+    height: 157px;
+    width: 157px;
+    background-image: url("pic.jpeg");
+    background-size: contain;
+    border-radius: 20px;
+    margin-top: 45px;
+  
+    
+    
+  }
+
+  .name{
+    font-size: 30px;
+    margin-top: 30px;
+    background-color: transparent;
+    color: #DEDEDE;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  
+  .webdev{
+    background-color: #393939;
+    margin-top: 7.5px;
+    padding-left: 18.75px;
+    padding-right: 18.75px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 10px;
+    font-size: 11.25px;
+    color: #DEDEDE;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+  
+  }
+
+  .line{
+    width: 172.5px; 
+    height: 2.25px; 
+    background-color: #535353;
+    margin: 37.5px;
+  }
+  
+  .instagram{
+    display: flex;
+    justify-content: space-between;
+    width: 172.5px;
+    align-items: center;
+    margin-top: 33.75px;
+  }
+  
+  .icon{
+    width: 37.5px;
+    height: 37.5px;
+    background-color:#393939;
+    box-shadow: 1px 1px 5px rgb(9, 9, 9);
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5C5C5C;
+  }
+  .instatext{
+    color: #DEDEDE;
+    font-size: 13.5px;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .social{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 37.5px;
+    margin-bottom: 18.75px;
+    width: 232.5px;
+
+  }
+
+  .boxes{
+    width: 37.5px;
+    height: 37.5px;
+    background-color:#393939;
+    box-shadow: 2px 4px 25px rgb(9, 9, 9);
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5C5C5C;
+  }
+  
+
+
+.box2{
+    height: 1350px;
+    width: 825px;
+    margin-top: 60px;
+    position: sticky;
+    margin-left: 15px;
+    margin-bottom: 45px;
+    
+    
+}
+
+.all{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contentbox2{
+
+    height: 1350px;
+    background-color: #1E1E1F;
+    width: 825px;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: #3d3d3d;
+    border-width: 1px;
+    
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .nav{
+    display: flex;
+    justify-content: end;
+    height: 80px;
+    width: 826.6px;
+  }
+
+  .links{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 394px;
+    height: 60px;
+    background-color: #2b2b2b;
+    border-style: solid;
+    border-width: 0px 0px 2px 2px;
+    border-color: #5C5C5C;
+    border-radius: 0px 25px 0px 15px;
+    margin-right: 2px;
+  }
+
+  .navlink{
+    color: #b8b8b8;
+    text-decoration: none;
+    font-size: 16.5px;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .orange{
+    color: hsl(45, 100%, 72%);
+  }
+
+
+  .about-text{
+    color: #DEDEDE;
+    font-size: 45px;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 52.5px 52.5px 0px 52.5px;
+  }
+
+  .div-line{
+    height: 11px;
+    width: 75px;
+    background-color: hsl(45, 100%, 72%);
+    margin-left: 52.5px;
+    border-radius: 20px;
+  }
+
+  .about-para{
+    width: 750px;
+    margin: 60px 52.5px 15px 52.5px;
+  }
+
+.about-paragraph{
+  font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+    color: #DEDEDE;
+    font-size: 18.75px;
+    margin-top: 15px;
+}
+
+
+
+
+  
+  
