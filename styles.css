@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins&display=swap');
+*{
+  margin: 0;
+  
+}
+body{
+  background-color: #121212;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+
+
+
+
+.box1{
+    height: 1060px;
+    width: 350px;
+    position: sticky;
+    top: 80px;
+    margin-bottom: 0;
+    margin-right: 20px;
+    margin-bottom: 60px;
+    
+}
+
+.contentbox1{
+
+  
+    background-color: #1E1E1F;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: #3d3d3d;
+    border-width: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 350px;
+    max-height: max-content;
+    height: 1060px;
+  }
+
+  .profilepic{
+    height: 210px;
+    width: 210px;
+    background-image: url("pic.jpeg");
+    background-size: contain;
+    border-radius: 20px;
+    margin-top: 45px;
+  
+    
+    
+  }
+
+  .name{
+    font-size: 40px;
+    margin-top: 40px;
+    background-color: transparent;
+    color: #DEDEDE;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  
+  .webdev{
+    background-color: #393939;
+    margin-top: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 10px;
+    font-size: 15px;
+    color: #DEDEDE;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+  
+  }
+
+  .line{
+    width: 230px; 
+    height: 3px; 
+    background-color: #535353;
+    margin: 50px;
+  }
+  
+  .instagram{
+    display: flex;
+    justify-content: space-between;
+    width: 230px;
+    align-items: center;
+    margin-top: 45px;
+  }
+  
+  .icon{
+    width: 50px;
+    height: 50px;
+    background-color:#393939;
+    box-shadow: 1px 1px 5px rgb(9, 9, 9);
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #5C5C5C;
+  }
+  .instatext{
+    color: #DEDEDE;
+    font-size: 18px;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .social{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-bottom: 25;
+    width: 310px;
+
+  }
+
+  .boxes{
+    width: 50px;
+    height: 50px;
+    background-color:#393939;
+    box-shadow: 2px 4px 25px rgb(9, 9, 9);
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #5C5C5C;
+  }
+  
+
+
+.box2{
+    height: 1800px;
+    width: 1100px;
+    margin-top: 80px;
+    position: sticky;
+    margin-left: 20px;
+    margin-bottom: 60px;
+    
+    
+}
+
+.all{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contentbox2{
+
+    height: 1800px;
+    background-color: #1E1E1F;
+    width: 1100px;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: #3d3d3d;
+    border-width: 1px;
+    
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .nav{
+    display: flex;
+    justify-content: end;
+    height: 80px;
+    width: 1102.13px;
+  }
+
+  .links{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 700px;
+    height: 80px;
+    background-color: #2b2b2b;
+    border-style: solid;
+    border-width: 0px 0px 2px 2px;
+    border-color: #5C5C5C;
+    border-radius: 0px 25px 0px 15px;
+    margin-right: 3.1px;
+  }
+
+  .navlink{
+    color: #b8b8b8;
+    text-decoration: none;
+    font-size: 22px;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .orange{
+    color: hsl(45, 100%, 72%);
+  }
+
+
+  .about-text{
+    color: #DEDEDE;
+    font-size: 60px;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 70px 70px 0px 70px;
+  }
+
+  .div-line{
+    height: 15px;
+    width: 100px;
+    background-color: hsl(45, 100%, 72%);
+    margin-left: 70px;
+    border-radius: 20px;
+  }
+
+  .about-para{
+    width: 1000px;
+    margin: 80px 70px 20px 70px;
+  }
+
+.about-paragraph{
+  font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+    color: #DEDEDE;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+
+
+
+  
+  
